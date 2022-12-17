@@ -1,0 +1,422 @@
+body{
+    width: 100%;
+    height: auto;
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+/*header start*/
+header{
+    width: 80%;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+}
+header .logo h2{
+    font-size: 25px;
+    margin-top: 40px;
+    font-weight: 1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding: 18px;
+}
+header .nav ul  li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+header .nav ul .activate{
+    border: 1px #151030 solid;
+    padding: 10px 15px;
+    background-color: #151030;
+    border-radius: 20px;
+    margin-top: 8px;
+}
+header .nav ul .activate:hover{
+    border: 1px solid gray;
+    background-color:rgb(255, 255, 255);
+    transition: all 0.5s ease-in;
+}
+
+/*header end*/
+/*section 1 start*/
+.section1{
+    width: 80%;
+    height:600px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    display: fLex;
+}
+.section1 .text2 img{
+    width: 530px;
+    height: auto;
+}
+.section1 .text1{
+    width: 40%;
+    margin-bottom: 80px;
+    line-height: 5px;
+}
+.section1 .text1 h6{
+    color: goldenrod;
+    background-color: rgba(243, 234, 185, 0.788);
+    display: inline;
+    padding: 7px 20px;
+    border: 1px solid  rgba(243, 234, 185, 0.788);
+    border-radius: 50px;
+    font-size: 9px;
+}
+.section1 .text1 h1{
+    font-size: 40px;
+    color: #1b134b;
+    line-height: 50px;
+}
+.section1 .text1 p{
+    font-size: 14px;
+    color: gray;
+    line-height: 23px;
+    margin-top: 10px;
+}
+.section1 .text1 input{
+    padding: 13px 30px;
+    font-size: 17px;
+    border: 1px solid  #151030;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.section1  .text1 .input2{
+    margin-left: 10px;
+}
+.section1 .text1 .input2:hover{
+    background-color:#151030 ;
+    color: #ddd;
+    font-size:17px ;
+    transition: all 0.4s ease-in;
+}
+.section1 .text1 .input1{
+    background-color: #151030;
+    color: #ddd;
+    font-size: 17px;
+}
+.section1 .text1 .input1:hover{
+    background-color: rgb(255, 255, 255);
+    color: #151030;
+    transition: all 0.4s ease-in;
+}
+
+/*section 1 end*/
+/*section 2 start*/
+.section2{
+    width: 80%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.section2 .text4 {
+    padding-right: 90px;
+}
+.section2 .text3 h6{
+    color: goldenrod;
+    background-color: rgba(243, 234, 185, 0.788);
+    display: inline;
+    padding: 7px 20px;
+    border: 1px solid  rgba(243, 234, 185, 0.788);
+    border-radius: 50px;
+    font-size: 10px;
+}
+.section2 .text3 h1{
+    font-size: 40px;
+    color: #1b134b;
+    line-height: 15px;
+}
+.section2 .text3 p{
+    font-size: 14px;
+    color: rgb(148, 146, 146);
+    line-height: 23px;
+    margin-top: 14px;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+}
+.section2 .text4 .service{
+    padding-top: 50px;
+    width: 110%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.section2 .text4 .service div{
+    width: 600px;
+    height: auto;
+}
+.section2 .text4 .service div i{
+    font-size: 60px;
+}
+.section2 .text4 .service div h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section2 .text4 .service div p{
+    width: 56%;
+}
+/*section 2 end*/
+/*section 3 start*/
+.section3{
+    width: 80%;
+    height:650px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    display: fLex;
+}
+.section3 .text5 img{
+    width: 620px;
+    height: auto;
+}
+.section3 .text6 {
+    width: 34%;
+}
+.section3 .text6 h6{
+    color: goldenrod;
+    background-color: rgba(243, 234, 185, 0.788);
+    display: inline;
+    padding: 7px 20px;
+    border: 1px solid  rgba(243, 234, 185, 0.788);
+    border-radius: 50px;
+    font-size: 10px;
+}
+.section3 .text6 h1{
+    font-size: 45px;
+    color: #1b134b;
+    line-height: 50px;
+}
+.section3 .text6 p{
+    font-size: 15px;
+    color: gray;
+    margin-top: 10px;
+}
+.section3 .text6 input{
+    padding: 13px 30px;
+    font-size: 17px;
+    border: 1px solid  #151030;
+    border-radius: 50px;
+    margin-top: 30px;
+    background-color:#151030 ;
+    color: #ddd;
+}
+.section3 .text6 input:hover{
+    background-color: rgb(255, 255, 255);
+    color: #151030;
+    transition: all 0.4s ease-in;
+}
+/*section 3 end*/
+/*section 4 start*/
+.section4{
+    width: 75%;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.section4 .text7 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.section4 .text7 h6{
+    color: goldenrod;
+    background-color: rgba(243, 234, 185, 0.788);
+    display: inline;
+    padding: 7px 20px;
+    border: 1px solid  rgba(243, 234, 185, 0.788);
+    border-radius: 50px;
+    font-size: 10px;
+}
+.section4 .text7 h1{
+    font-size: 45px;
+    color: #1b134b;
+    line-height: 50px;
+    text-align: center;
+}
+.section4 .text8 .ser1 figure{
+    width: 37%;
+    margin: 0 auto;
+}
+.section4 .text8 .ser1 {
+    display: flex;
+}
+.section4 .text8 .ser1 figure i{
+    margin-right: 30px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.section4 .text8 .ser1 figure div{
+    border: 1px solid rgb(226, 221, 221);
+    border-radius: 5px;
+    margin-top: 40px;
+    padding: 10px 20px;
+}
+.section4 .text8 p{
+    margin-left: 60px;
+    color: rgb(127, 127, 131);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section4 .text8 .ser1 figure div:hover{
+    box-shadow: 5px 5px 5px 2s black;
+}
+
+/*section 4 end*/
+/*section 5 start*/
+.section5{
+    width: 80%;
+    height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.section5 .text9{
+    margin: 0 auto;
+    text-align: center;
+}
+.section5 .text9 h6{
+    color: goldenrod;
+    background-color: rgba(243, 234, 185, 0.788);
+    display: inline;
+    padding: 7px 20px;
+    border: 1px solid  rgba(243, 234, 185, 0.788);
+    border-radius: 50px;
+    font-size: 10px;
+}
+.section5 .text9 h1{
+    font-size: 43px;
+    color: #1b134b;
+    line-height: 20px;
+    text-align: center;
+}
+.section5 .text9 p{
+    width: 70%;
+    color: rgb(196, 191, 191);
+    font-size: 15px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: lighter;
+}
+.section5 .text10 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 5em;
+}
+.section5 .text10 img{
+    width: 50px;
+    height: auto;
+    border: 0px solid #ddd;
+    border-radius: 50px;
+    float:left;
+    margin-right: 20px;
+}
+.section5 .text10 div{
+    width: 30%;
+    border: 1px solid rgb(218, 212, 212);
+    border-radius: 10px;
+    padding: 10px 13px;
+    line-height: 5px;
+}
+.section5 .text10 div h4{
+    font-size: 19px;
+    font-weight: lighter;
+    line-height: 30px;
+    color: rgb(180, 177, 177);
+} 
+.section5 .text10 div .p1{
+    word-spacing: 3px;
+    font-size: 18px;
+    color: gray;
+    font-weight: lighter;
+}
+.section5 .text10 div p{
+    font-size: 15px;
+    color: darkgray;
+}
+.section5 .text10 div:hover{
+    border:1px solid rgb(6, 6, 80);
+    transition: all 0.3s ease-in;
+}
+/*section 5 end*/
+/*section 6 start*/
+.section6{
+    width: 90%;
+    height: 310px;
+    justify-content: center;
+    padding-top: 80px;
+    margin: 0 auto;
+    display: flex;
+}
+.section6 p{
+    font-size: 15px;
+    color: rgb(160, 152, 152);
+    font-weight: lighter;
+}
+.section6 h4{
+    color: #49484d;
+}
+.section6 .div1{
+    width: 33%;
+}
+.section6 .div1  i{
+    font-size: 30px;
+}
+.section6 .div1 a{
+    text-decoration: none;
+    color: rgb(23, 56, 107);
+}
+.section6 .div2{
+    width: 15%;
+}
+.section6 .div3{
+    width: 15%;
+}
+.section6 .div4{
+    width: 25%;
+}
+.section6 .div5 {
+    display: inline;
+}
+/*section 6 end*/
+/*section 7 start*/
+.section7 .extra{
+    width: 80%;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0;
+}
+.section7 .extra p{
+    font-size: 15px;
+    color: #626266;
+    word-spacing: 3px;
+}
+.section7 .extra i{
+    color: black;
+    font-size: 20px;
+}
+/*seection 7 end*/
